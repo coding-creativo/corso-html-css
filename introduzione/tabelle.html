@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Esempi di tabella</title>
+    </head>
+    <body>
+        <h1>Tabella</h1>
+
+        <table>
+            <tr>
+                <td>Prima riga - prima cella</td>
+                <td>Prima riga - seconda cella</td>
+            </tr>
+            <tr>
+                <td>Seconda riga - prima cella</td>
+                <td>Seconda riga - seconda cella</td>
+            </tr>
+        </table>
+
+        <!-- spese mensili -->
+        <h2>Spese mensili</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Mese</th>
+                    <th>Spese</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gennaio</td>
+                    <td>800 €</td>
+                </tr>
+                <tr>
+                    <td>Febbraio</td>
+                    <td>900 €</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Totale</td>
+                    <td>1700 €</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!-- inizio esempio di rowspan -->
+        <h2>Contatti</h2>
+
+        <table>
+            <tr>
+                <th>Nome: </th>
+                <td>Pippo</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Telefono: </th>
+                <td>333123</td>
+            </tr>
+            <tr>
+                <td>12345</td>
+            </tr>
+        </table>
+
+        <!-- fine esempio di rowspan -->
+
+        <!-- inizio esempio colspan -->
+        <h2>Amici: </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Name: </th>
+                    <th>Età:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pippo</td>
+                    <td>Disney</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>Pluto</td>
+                    <td>Disney</td>
+                    <td>40</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <!-- fine esempio colspan -->
+
+    </body>
+</html>
