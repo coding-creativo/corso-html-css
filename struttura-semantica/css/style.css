@@ -1,0 +1,49 @@
+body {
+    background-color: #abd3fc;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color:blue;
+    font-size: 40px;
+}
+
+h2 {
+    color: red;
+}
+
+.titolo {
+    color: green;
+}
+
+/* sezione corso html */
+.titolo-html {
+    color:rgb(1, 63, 42);
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+.testo {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#html {
+    background-color: #dff759;
+}
+
+a:link, 
+a:visited {
+    text-decoration: none;
+    color:rgb(1, 63, 42);
+    font-weight: 800;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
