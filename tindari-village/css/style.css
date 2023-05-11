@@ -1,0 +1,150 @@
+/* common */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    /* flex-direction: row; valore di default */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+a.button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+a.orange{
+    background-color: orange;
+    color: #385fbc;
+}
+
+a.orange:hover {
+    background-color: #385fbc;
+    color:orange;
+}
+
+a.blue{
+    background-color: #385fbc;
+    color: orange
+}
+
+a.blue:hover {
+    background-color: orange;
+    color:#385fbc;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+/* header */
+
+/* header-top */
+.header-top {
+    background-color: #385fbc;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.header-top a:link,
+.header-top a:visited {
+    color:white;
+    text-decoration: none;
+}
+
+.header-top i {
+    padding: 0px 5px;
+}
+
+/* header-bottom */
+
+.logo-img img {
+    height: 80px;
+    padding: 6px 0px;
+}
+
+.main-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-menu ul li {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.menu-item a:link,
+.menu-item a:visited {
+    text-decoration: none;
+    color: #385fbc;
+    font-weight: 500;
+}
+
+.menu-item a:hover {
+    text-decoration: overline 2px #385fbc;
+}
+
+/* jumbotron  */
+
+.jumbotron {
+    height: 600px;
+    background-image: url('../img/villagetindari.webp');
+    background-position: 30% 40%;
+    position: relative;
+}
+
+.jumbotron-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+/* main */
+
+/* #slogan */
+#slogan h2 {
+    font-size: 40px;
+    color:#385fbc;
+}
+
+#slogan p {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+/* #descrizione */
+#descrizione {
+    background-color: #dafde2;
+}
+
+/* footer */
